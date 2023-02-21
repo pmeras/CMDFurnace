@@ -1,0 +1,12 @@
+name: CMDFurnace
+version: '${version}'
+main: pmeras.cmdfurnace.CMDFurnace
+api-version: 1.19
+authors: [ pmeras ]
+description: Implémente une commande /furnace qui cuit instantanément l'item dans la main du  joueur
+
+commands:
+    furnace:
+        description: Cuit instantanément l'item dans la main du joueur
+        usage: /<command>
+        permission: op
