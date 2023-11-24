@@ -9,4 +9,4 @@ commands:
     furnace:
         description: Cuit instantanément l'item dans la main du joueur
         usage: /<command>
-        permission: op
+        permission: CMDFurnace.furnace
