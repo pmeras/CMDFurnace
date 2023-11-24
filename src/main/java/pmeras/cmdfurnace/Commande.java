@@ -76,7 +76,7 @@ public class Commande implements CommandExecutor
     {
         try
         {
-            List<String> tmp = Files.readAllLines(Paths.get(System.getProperty("user.dir"),"/plugins/config/recipes.txt").toAbsolutePath());
+            List<String> tmp = Files.readAllLines(Paths.get(System.getProperty("user.dir"),"/plugins/config/CMDFurnace/recipes.txt").toAbsolutePath());
             String tmpCut;
             for(int i = 0;i < tmp.size();i++)
             {

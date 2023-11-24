@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CMDFurnace">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/CMDFurnace</output-path>
+    <root id="archive" name="CMDFurnace.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/recipes.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
